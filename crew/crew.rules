@@ -1,0 +1,15 @@
+Actions
+[
+	// 提高船员移速
+	{
+		Action = Overrides
+		OverrideIn = "<crew/crew.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 3.2
+			BaseSpeed = 4.5
+		}
+	}
+]

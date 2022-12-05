@@ -1,0 +1,280 @@
+Actions
+[
+	// 提高资源堆叠数量
+
+	// 超光素
+	{
+		Action = Overrides
+		OverrideIn = "<resources/hyperium/hyperium.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 20
+			MaxStackSize = 32
+			// 初始 4/50 = 0.08
+			AsteroidDensity = 0.25
+		}
+	}
+
+	// 弹药
+	{
+		Action = Overrides
+		OverrideIn = "<resources/bullet/bullet.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 20
+			MaxStackSize = 32
+		}
+	}
+
+	// 高爆导弹
+	{
+		Action = Overrides
+		OverrideIn = "<resources/missile_part_he/missile_part_he.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 10
+			MaxStackSize = 16
+		}
+	}
+	
+	// EMP 导弹
+	{
+		Action = Overrides
+		OverrideIn = "<resources/missile_part_emp/missile_part_emp.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 10
+			MaxStackSize = 16
+		}
+	}
+
+	// 核导弹
+	{
+		Action = Overrides
+		OverrideIn = "<resources/missile_part_nuke/missile_part_nuke.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 10
+			MaxStackSize = 16
+		}
+	}
+	
+	// 地雷
+	{
+		Action = Overrides
+		OverrideIn = "<resources/mine_part/mine_part.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 4
+			MaxStackSize = 16
+		}
+	}
+
+	// 钢铁
+	{
+		Action = Overrides
+		OverrideIn = "<resources/steel/steel.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 20
+			MaxStackSize = 32
+		}
+	}
+
+	// 线圈
+	{
+		Action = Overrides
+		OverrideIn = "<resources/coil/coil.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 20
+			MaxStackSize = 32
+		}
+	}
+
+	// 超感线圈
+	{
+		Action = Overrides
+		OverrideIn = "<resources/coil2/coil2.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 20
+			MaxStackSize = 32
+		}
+	}
+
+	// 三钛钢	
+	{
+		Action = Overrides
+		OverrideIn = "<resources/tristeel/tristeel.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+		}
+	}
+
+	// 金刚石
+	{
+		Action = Overrides
+		OverrideIn = "<resources/diamond/diamond.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+		}
+	}
+
+	// 处理器
+	{
+		Action = Overrides
+		OverrideIn = "<resources/processor/processor.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+		}
+	}
+
+	// 浓缩铀
+	{
+		Action = Overrides
+		OverrideIn = "<resources/enriched_uranium/enriched_uranium.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 10
+			MaxStackSize = 16
+		}
+	}
+
+	// 硫磺
+	{
+		Action = Overrides
+		OverrideIn = "<resources/sulfur/sulfur.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+			// 初始 20/20 = 1
+			AsteroidDensity = 0.8
+		}
+	}
+
+	// 铁
+	{
+		Action = Overrides
+		OverrideIn = "<resources/iron/iron.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+			// 初始 20/20 = 1
+			AsteroidDensity = 1
+		}
+	}
+
+	// 铜
+	{
+		Action = Overrides
+		OverrideIn = "<resources/copper/copper.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+			// 初始 20/80 = 0.25
+			AsteroidDensity = 0.5
+		}
+	}
+	
+	// 钛
+	{
+		Action = Overrides
+		OverrideIn = "<resources/tritanium/tritanium.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+			// 初始 40/160 = 0.25
+			AsteroidDensity = 0.25
+		}
+	}
+
+	// 碳
+	{
+		Action = Overrides
+		OverrideIn = "<resources/carbon/carbon.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+			// 初始 40/160 = 0.25
+			AsteroidDensity = 0.8
+		}
+	}
+
+	// 金
+	{
+		Action = Overrides
+		OverrideIn = "<resources/gold/gold.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+			// 初始 40/500 = 0.08
+			AsteroidDensity = 0.25
+		}
+	}
+
+	// 铀
+	{
+		Action = Overrides
+		OverrideIn = "<resources/uranium/uranium.rules>"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 5
+			MaxStackSize = 16
+			// 初始 40/400 = 0.1
+			AsteroidDensity = 0.25
+		}
+	}
+]

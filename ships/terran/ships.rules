@@ -1,0 +1,54 @@
+Actions
+[
+	// 提高小型宿舍船员容量
+	{
+		Action = Overrides
+		OverrideIn = "<ships/terran/crew_quarters_small/crew_quarters_small.rules>/Part/Components/CrewSource"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 2
+			Crew = 3
+		}
+	}
+
+	// 提高中型宿舍船员容量
+	{
+		Action = Overrides
+		OverrideIn = "<ships/terran/crew_quarters_med/crew_quarters_med.rules>/Part/Components/CrewSource"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 6
+			Crew = 8
+		}
+	}
+	
+	// 降低开采激光能耗
+	{
+		Action = Overrides
+		OverrideIn = "<ships/terran/mining_laser_small/mining_laser_small.rules>/Part/Components/BeamEmitterBase"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 120
+			ResourcesUsed = 60
+		}
+	}
+	
+	// 降低传感器阵列人员需求
+	{
+		Action = Overrides
+		OverrideIn = "<ships/terran/sensor_array/sensor_array.rules>/Part/Components/PartCrew"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		Overrides
+		{
+			// 初始 4
+			Crew = 2
+		}
+	}
+]
